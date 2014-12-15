@@ -1,6 +1,7 @@
 #include "erl_nif.h"
 #include "newrelic_common.h"
 #include "newrelic_transaction.h"
+#include "newrelic_collector_client.h"
 
 static ERL_NIF_TERM power_nif(ErlNifEnv* env, int argc, const ERL_NIF_TERM argv[])
 {
