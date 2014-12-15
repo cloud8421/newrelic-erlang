@@ -11,3 +11,4 @@ rel/example_project
 priv/newrelic.so
 priv/newrelic.so.dSYM
 .vagrant
+.env
